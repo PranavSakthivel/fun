@@ -11,6 +11,7 @@ import twitter from "./twitter.svg";
 import alex from "./alex.jpg";
 import mario from "./mario.jpg";
 import email from "./email.svg";
+import blockchain from "./blockchain.png";
 
 export {
   logo,
@@ -24,6 +25,7 @@ export {
   linkedin,
   twitter,
   email,
+  blockchain,
   alex,
-  mario
+  mario,
 };

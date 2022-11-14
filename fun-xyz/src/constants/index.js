@@ -12,7 +12,32 @@ import {
   email,
   alex,
   mario,
+  blockchain
 } from "../assets";
+
+export const features = [
+  {
+    id: "feature1",
+    icon: send,
+    title: "Cross-chain Wallets",
+    content:
+      "We leverage new blockchain technology to build cross-chain wallet infrastructure.",
+  },
+  {
+    id: "feature2",
+    icon: star,
+    title: "In Partnership with Odsy Network",
+    content:
+      "We provide foundational components for new wallet APIs & protocols on top of the Odsy Network.",
+  },
+  {
+    id: "feature3",
+    icon: shield,
+    title: "Increased Trust & Usability",
+    content:
+      "Our infrastructure eliminates the risks associated with central custodians when accessing cross-chain assets & core web2 functionality in web3.",
+  },
+];
 
 export const navLinks = [
   {
