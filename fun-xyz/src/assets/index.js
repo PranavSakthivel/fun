@@ -12,6 +12,7 @@ import alex from "./alex.jpg";
 import mario from "./mario.jpg";
 import email from "./email.svg";
 import blockchain from "./blockchain.png";
+import quotes from './quotes.svg';
 
 export {
   logo,
@@ -28,4 +29,5 @@ export {
   blockchain,
   alex,
   mario,
+  quotes
 };

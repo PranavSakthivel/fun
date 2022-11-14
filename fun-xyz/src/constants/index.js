@@ -15,6 +15,25 @@ import {
   blockchain
 } from "../assets";
 
+export const team = [
+  { 
+    id: 'member1',
+    name: 'Alex Fine',
+    title: 'Co-Founder & CEO',
+    tagline: 'I care about spending time with people I respect and building dope products. I get to do both at fun.xyz.',
+    about: 'Alex is a serial builder. Before fun.xyz Alex ran a crypto-currency fund built on AI-driven quantitative models. Before crypto, Alex founded a studying app, Quill, when he was 16. Quill was acquired in February 2018. Alex studied Math & Computer Science at Stanford University.',
+    image: alex
+  },
+  {
+    id: 'member2',
+    name: 'Mario Baxter',
+    title: 'Co-Founder & CTO',
+    tagline: 'I am passionate about leveraging breakthrough technologies to advance economic freedom across the globe. This is exactly what we are doing at fun.xyz.',
+    about: 'Originally from Totana, a small agricultural town in Spain, Mario grew up doing triathlon and tinkering with electronics. He became the only kid in his high school to go to college in the United States, where he attended Stanford University. Mario graduated early from Stanford with a concentration in Artificial Intelligence and began working as an AI engineer & researcher at Meta. When not working, Mario enjoys endurance training as well as reading & writing about philosophy of mind.',
+    image: mario
+  },
+];
+
 export const features = [
   {
     id: "feature1",
