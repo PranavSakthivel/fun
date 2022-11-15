@@ -16,7 +16,7 @@ import {
 } from "../assets";
 
 export const team = [
-  { 
+  {
     id: 'member1',
     name: 'Alex Fine',
     title: 'Co-Founder & CEO',
@@ -104,11 +104,13 @@ export const socials = [
   },
 ];
 
+export const author = {
+  name: 'Pranav Sakthivel',
+  link: 'https://github.com/PranavSakthivel'
+};
+
+
 export const footer = "© 2022 The Fun Group, Inc.";
-export const partners = [
-  {
-    id: "odsy",
-    name: "Odsy Network",
-    link: "http://odsy.xyz/",
-  },
-];
+export const whitepaper_link = 'https://fun.xyz/assets/images/about_fun.pdf';
+export const odsy_link = 'https://odsy.xyz/';
+export const careers_link = 'https://jobs.lever.co/fun.xyz'; 

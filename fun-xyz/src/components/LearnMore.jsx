@@ -1,4 +1,4 @@
-import { features } from '../constants';
+import { features, whitepaper_link, odsy_link } from '../constants';
 import styles, { layout } from '../styles';
 import Button from './Button';
 
@@ -28,8 +28,10 @@ const LearnMore = () => {
                 <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
                     Our team is working towards increasing economic freedom by accelerating the adoption of more secure & usable wallets.
                 </p>
-
-                <Button styles='mt-10' />
+                <div>
+                    <Button text="Learn More" styles='mt-10' link={whitepaper_link} />
+                    <Button text="Odsy Network" styles='mt-5 mx-5' link={odsy_link} />
+                </div>
             </div>
 
             <div className={`${layout.sectionImg} flex-col`}>

@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Button = ({ styles }) => {
+const Button = ({ text, styles, link }) => {
   return (
-    <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-full ${styles}`}>
-      Learn More
-    </button>
+    <a href={link} target='_blank'>
+      <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-full hover:text-white ${styles}`}>
+        { text }
+      </button>
+    </a>
   )
 }
 

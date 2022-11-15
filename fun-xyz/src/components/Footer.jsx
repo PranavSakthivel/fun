@@ -1,6 +1,6 @@
 import styles from '../styles';
 import { logo } from '../assets';
-import { footer, socials } from '../constants';
+import { footer, socials, author } from '../constants';
 
 export const Footer = () => (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -20,6 +20,15 @@ export const Footer = () => (
                         <img key={social.id} src={social.icon} alt={social.id} className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socials.length-1 ? 'mr-6' : 'mr-0'}`}/>
                     </a>
                 ))}
+            </div>
+
+            <div>
+                <p className='text-white font-poppins font-normal'>
+                    Website designed by 
+                    <a href={author.link} className='font-semibold'>
+                        {author.name}
+                    </a>
+                </p>
             </div>
         </div>
     </section>
