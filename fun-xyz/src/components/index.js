@@ -5,13 +5,15 @@ import Navbar from "./Navbar";
 import Team from "./Team";
 import LearnMore from "./LearnMore";
 import Button from "./Button";
+import Footer from './Footer';
 
 export {
-    About,
     Home,
+    About,
     Mission,
     Navbar,
     Team,
     LearnMore,
-    Button
+    Button,
+    Footer
 };

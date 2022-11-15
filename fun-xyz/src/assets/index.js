@@ -10,7 +10,7 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import alex from "./alex.jpg";
 import mario from "./mario.jpg";
-import email from "./email.svg";
+import email from "./email.png";
 import blockchain from "./blockchain.png";
 import quotes from './quotes.svg';
 
