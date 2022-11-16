@@ -9,8 +9,8 @@ const Home = () => (
       <div
         className='flex flex-row justify-between items-center w-full'
       >
-        <h1 className='flex-1 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
-          Building decentralized <br className="sm:block hidden" /> {" "}
+        <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+          Decentralized <br className="sm:block hidden" /> {" "}
           <span className="text-gradient">
             multi-chain access
           </span> {" "}
@@ -18,7 +18,10 @@ const Home = () => (
           control applications.
         </h1>
       </div>
-
+      <br/>
+      <p className='mx-1 font-poppins font-semibold text-dimWhite text-[20px]'>
+        SUMMER '23
+      </p>
     </div>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src={blockchain} alt="blockchain" className='w-[100%] h-[100%] z-[5]'/>
