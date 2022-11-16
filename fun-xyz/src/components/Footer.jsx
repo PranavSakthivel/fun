@@ -24,7 +24,7 @@ export const Footer = () => (
 
         </div>
         <div>
-            <br/>
+            <br />
             <p className='text-white font-poppins font-normal'>
                 Website designed by {' '}
                 <a href={author.link} target='_blank' className='font-semibold text-gradient hover:animate-pulse'>

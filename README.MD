@@ -55,10 +55,14 @@ Libraries used:
 - Implement Odsy network link in a better way - right now there may be some confusion between the "Learn More" button and the "Odsy Network" button. 
   - Some options I considered were adding Odsy as a Navbar Link, making the "In Partnership with Odsy" section fully clickable, or adding it as a footer link, but decided a transparent button made more sense and did not draw as much attention as the main button.
 - Some formatting is slightly broken below a width of 200px, with additional testing this can be possibly fixed with Tailwind CSS properties
+- Inverted Favicon may be more visible with a light browser theme, but not with a dark one - possible outline around the favicon SVG may help
+- The large image on the main page serves as a placeholder for a more relevant asset - I will try to include some alternatives in the assets folder 
+- The "Join Us" button placement can be changed - I tried a couple different positions, right and left aligning but wasn't satisfied with any of them
+- A possible color scheme might be a dark purple accent to go along with the Odsy network's site theme
 
 ### Possible back-end implementations and considerations:
 
-- Lever Job API
+- Lever Job API implementation
 - Website Analytics - where users are visiting the website from, engagement and metrics tracking
   - May have possible privacy concerns if using public cloud such as Firebase Analytics
 - In the future, a database would be useful for storing form data for a newsletter or customer feedback
