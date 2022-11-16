@@ -52,6 +52,7 @@ export const features = [
     title: "In Partnership with Odsy Network",
     content:
       "We provide foundational components for new wallet APIs & protocols on top of the Odsy Network.",
+    link: 'https://odsy.xyz/'
   },
   {
     id: "feature3",
@@ -62,18 +63,21 @@ export const features = [
   },
 ];
 
+/*
+Add an optional "link" parameter to have a NavLink redirect to a website.
+*/
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Home"
   },
   {
     id: "about",
-    title: "About",
+    title: "About"
   },
   {
     id: "team",
-    title: "Team",
+    title: "Team"
   },
   {
     id: "careers",

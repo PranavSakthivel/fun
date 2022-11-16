@@ -16,7 +16,7 @@ const Team = () => (
         <MemberCard key={card.id} {...card} />
       ))}
     </div>
-    <Button text="Join Us" styles='' link={careers_link}/>
+    <Button text="Join Us" styles='py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-full' link={careers_link}/>
   </section>
 
 )
