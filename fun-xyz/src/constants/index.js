@@ -1,8 +1,6 @@
 /*
 This file can be edited to add more or edit existing information
 on the website, such as URLs, titles, and text.
-
-Pranav Sakthivel
 */
 
 import {
@@ -14,7 +12,7 @@ import {
   email,
   alex,
   mario,
-} from "../assets";
+} from '../assets';
 
 export const team = [
   {
@@ -41,67 +39,67 @@ export const team = [
 
 export const features = [
   {
-    id: "feature1",
+    id: 'feature1',
     icon: send,
-    title: "Cross-chain Wallets",
+    title: 'Cross-chain Wallets',
     content:
-      "We leverage new blockchain technology to build cross-chain wallet infrastructure.",
+      'We leverage new blockchain technology to build cross-chain wallet infrastructure.',
   },
   {
-    id: "feature2",
+    id: 'feature2',
     icon: star,
-    title: "In Partnership with Odsy Network",
+    title: 'In Partnership with Odsy Network',
     content:
-      "We provide foundational components for new wallet APIs & protocols on top of the Odsy Network.",
+      'We provide foundational components for new wallet APIs & protocols on top of the Odsy Network.',
     link: 'https://odsy.xyz/'
   },
   {
-    id: "feature3",
+    id: 'feature3',
     icon: shield,
-    title: "Increased Trust & Usability",
+    title: 'Increased Trust & Usability',
     content:
-      "Our infrastructure eliminates the risks associated with central custodians when accessing cross-chain assets & core web2 functionality in web3.",
+      'Our infrastructure eliminates the risks associated with central custodians when accessing cross-chain assets & core web2 functionality in web3.',
   },
 ];
 
 /*
-Add an optional "link" parameter to have a NavLink redirect to a website.
+Add an optional 'link' parameter to have a NavLink redirect to a website.
 */
 export const navLinks = [
   {
-    id: "home",
-    title: "Home"
+    id: 'home',
+    title: 'Home'
   },
   {
-    id: "about",
-    title: "About"
+    id: 'about',
+    title: 'About'
   },
   {
-    id: "team",
-    title: "Team"
+    id: 'team',
+    title: 'Team'
   },
   {
-    id: "careers",
-    title: "Careers",
-    link: "https://jobs.lever.co/fun.xyz",
+    id: 'careers',
+    title: 'Careers',
+    link: 'https://jobs.lever.co/fun.xyz',
   },
 ];
 
 export const socials = [
   {
-    id: "twitter",
+    id: 'twitter',
     icon: twitter,
-    link: "https://twitter.com/fun",
+    link: 'https://twitter.com/fun',
   },
   {
-    id: "linkedin",
+    id: 'linkedin',
     icon: linkedin,
-    link: "https://www.linkedin.com/company/funxyz",
+    link: 'https://www.linkedin.com/company/funxyz',
   },
   {
-    id: "email",
+    id: 'email',
     icon: email,
-    link: "mailto:hi@fun.xyz",
+    link: 'mailto:hi@fun.xyz',
   },
 ];
 
@@ -117,5 +115,5 @@ export const author = {
   link: 'https://github.com/PranavSakthivel'
 };
 
-export const footer = "© 2022 The Fun Group, Inc.";
+export const footer = '© 2022 The Fun Group, Inc.';
 export const careers_link = 'https://jobs.lever.co/fun.xyz';

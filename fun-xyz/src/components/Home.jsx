@@ -10,10 +10,10 @@ const Home = () => (
         className='flex flex-row justify-between items-center w-full'
       >
         <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
-          Decentralized <br className="sm:block hidden" /> {" "}
-          <span className="text-gradient">
+          Decentralized <br className='sm:block hidden' /> {' '}
+          <span className='text-gradient'>
             multi-chain access
-          </span> {" "}
+          </span> {' '}
           <br />
           control applications.
         </h1>
@@ -24,7 +24,7 @@ const Home = () => (
       </p>
     </div>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-      <img src={blockchain} alt="blockchain" className='w-[100%] h-[100%] z-[5]' />
+      <img src={blockchain} alt='blockchain' className='w-[100%] h-[100%] z-[5]' />
 
       <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient' />
       <div className='absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 blue__gradient' />

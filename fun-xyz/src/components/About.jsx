@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index, link }) => (
 
 const About = () => {
     return (
-        <section id="about" className={layout.section}>
+        <section id='about' className={layout.section}>
             <div className={layout.sectionInfo}>
                 <h2 className={styles.heading2}>
                     {about_fun.title}
@@ -29,8 +29,8 @@ const About = () => {
                     {about_fun.desc}
                 </p>
                 <div>
-                    <Button text="Learn More" styles='mt-10 bg-blue-gradient text-primary outline-none' link={about_fun.fun_pdf_link} />
-                    <Button text="Odsy Network" styles='mt-5 mx-5 border border-white-2 text-white' link={about_fun.odsy_link} />
+                    <Button text='Learn More' styles='mt-10 bg-blue-gradient text-primary outline-none' link={about_fun.fun_pdf_link} />
+                    <Button text='Odsy Network' styles='mt-5 mx-5 border border-white-2 text-white' link={about_fun.odsy_link} />
                 </div>
             </div>
 

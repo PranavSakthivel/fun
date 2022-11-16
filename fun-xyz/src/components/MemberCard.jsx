@@ -14,8 +14,8 @@ const MemberCard = ({ name, title, tagline, image, linkedin_url, twitter_url }) 
                 <p className='font-poppins font-normal text-[16px] leading-[24px] text-dimWhite'>{title}</p>
             </div>
             <div className='mx-5'>
-                <a href={linkedin_url} target="_blank"><img src={linkedin} className='my-1' /></a>
-                <a href={twitter_url} target="_blank"><img src={twitter} className='my-3' /></a>
+                <a href={linkedin_url} target='_blank'><img src={linkedin} className='my-1' /></a>
+                <a href={twitter_url} target='_blank'><img src={twitter} className='my-3' /></a>
             </div>
         </div>
     </div>

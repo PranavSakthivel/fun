@@ -31,34 +31,38 @@ Libraries used:
 
 ### Features:
 - Uses React, a modern web framework
+- Website is responsive - it scales correctly for phones, tablets, desktops, or any size display
 - Contains most information from the original landing page
-- Website is responsive - it scales for phones, tablets, desktops, or any device
 - Uses minimal dependencies
-- Website has a modern easy to follow design
-- The text and titles are easy to edit or modify to add future content to the website
-- Assets can easily be swapped out
+- Website has a modern design
+- The text and titles are easy to edit or modify to add future content to the website (`/src/constants/index.js`)
+- Assets can easily be swapped out (see Future considerations)
 - Social links have been overhauled to use icons
 
 ### Technology Selection:
 
-- React is popular in the full stack engineering space, and offers a lot of flexibility. I used this as an opportunity to refresh my React basics.
+- React is popular in the full stack engineering space, and offers a lot of flexibility. 
 - React offers lots of code reusability.
 - Tailwind CSS offers easy CSS editing in-HTML with lots of premade properties to add to elements.
 - There are no other dependencies required to create a single page application using these tools, which reduces overhead and code clutter.
+- I used this as an opportunity to refresh my React basics.
 
 
 ### Future considerations
 
 - Hosting the website on a public cloud, such as Azure Web Apps
 - Lever Job API may offer some options to show the careers directly within the webpage
-- Possible to implement a React library to view the Fun PDFs within the website - there are paid and open source options on the internet for this
-- Implement Odsy network link in a better way - right now there may be some confusion between the "Learn More" button and the "Odsy Network" button. 
-  - Some options I considered were adding Odsy as a Navbar Link, making the "In Partnership with Odsy" section fully clickable, or adding it as a footer link, but decided a transparent button made more sense and did not draw as much attention as the main button.
-- Some formatting is slightly broken below a width of 200px, with additional testing this can be possibly fixed with Tailwind CSS properties
-- Inverted Favicon may be more visible with a light browser theme, but not with a dark one - possible outline around the favicon SVG may help
+- Possible to implement a React / Node library to view the Fun PDFs within the website - there are paid and open source options on the internet for this
+- Implement Odsy network link in a better way - right now there may be some confusion between the **Learn More** button and the **Odsy Network** button. 
+  - Some options I considered were adding Odsy as a Navbar Link, making the **In Partnership with Odsy** section fully clickable, or adding it as a footer link, but decided a transparent button made more sense and did not draw as much attention as the main button.
 - The large image on the main page serves as a placeholder for a more relevant asset - I will try to include some alternatives in the assets folder 
-- The "Join Us" button placement can be changed - I tried a couple different positions, right and left aligning but wasn't satisfied with any of them
+  - `src/assets/blockchain1.png` and `blockchain2.png` are copyright free
+  - `src/assets/blockchain.png` may require a [license](https://pngtree.com/freepng/blockchain-technology-bitcoin-ethereum_3814725.html)
+  - Renaming the alternatives to `blockchain.png` and adding them to `/src/assets` will swap the asset
+- Inverted Favicon may be more visible with a light browser theme, but not with a dark one - possible outline around the favicon SVG may help
+- The **Join Us** button placement can be changed - I tried a couple different positions, right and left aligning but wasn't satisfied with any of them
 - A possible color scheme might be a dark purple accent to go along with the Odsy network's site theme
+- Some Team images are slightly broken below extremely low widths such as 200px, with additional testing this can be possibly fixed with Tailwind CSS properties 
 
 ### Possible back-end implementations and considerations:
 
@@ -79,12 +83,12 @@ Libraries used:
 
 ## Preview / Screenshots
 
-[Imgur Link](https://imgur.com/a/1T2Gbtl)
+### **[Imgur Link](https://imgur.com/a/1T2Gbtl)**
 
 ## Sources
 
 - Tailwind CSS documentation
 - React documentation
-- Royalty free images and vectors from [Pixabay](https://pixabay.com/)
+- Royalty free images and vectors from [Pixabay](https://pixabay.com/) (copyright-free) and [pngtree](https://pngtree.com/) (not copyright-free)
 - Premade styles, gradients and assets from [styles.js](https://gist.githubusercontent.com/adrianhajdin/8a04faf5e52419ec93cd5329ffcb011e/raw/119ddf3380cecf2a3736afe8e4c83ee008093b6b/style.js) and [index.css](https://gist.githubusercontent.com/adrianhajdin/8a04faf5e52419ec93cd5329ffcb011e/raw/119ddf3380cecf2a3736afe8e4c83ee008093b6b/index.css)
 - Premade device presets from [tailwind.config.cjs](https://gist.githubusercontent.com/adrianhajdin/8a04faf5e52419ec93cd5329ffcb011e/raw/119ddf3380cecf2a3736afe8e4c83ee008093b6b/tailwind.config.cjs) to make the website responsive
