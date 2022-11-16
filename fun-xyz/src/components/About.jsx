@@ -1,4 +1,4 @@
-import { features, whitepaper_link, odsy_link } from '../constants';
+import { features, about_fun } from '../constants';
 import styles, { layout } from '../styles';
 import Button from './Button';
 
@@ -23,14 +23,14 @@ const About = () => {
         <section id="about" className={layout.section}>
             <div className={layout.sectionInfo}>
                 <h2 className={styles.heading2}>
-                    Our Mission
+                    {about_fun.title}
                 </h2>
                 <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                    Our team is working towards increasing economic freedom by accelerating the adoption of more secure & usable wallets.
+                    {about_fun.desc}
                 </p>
                 <div>
-                    <Button text="Learn More" styles='mt-10 bg-blue-gradient text-primary outline-none' link={whitepaper_link} />
-                    <Button text="Odsy Network" styles='mt-5 mx-5 border border-white-2 text-white' link={odsy_link} />
+                    <Button text="Learn More" styles='mt-10 bg-blue-gradient text-primary outline-none' link={about_fun.fun_pdf_link} />
+                    <Button text="Odsy Network" styles='mt-5 mx-5 border border-white-2 text-white' link={about_fun.odsy_link} />
                 </div>
             </div>
 

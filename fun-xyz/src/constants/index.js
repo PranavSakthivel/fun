@@ -1,18 +1,19 @@
+/*
+This file can be edited to add more or edit existing information
+on the website, such as URLs, titles, and text.
+
+Pranav Sakthivel
+*/
+
 import {
-  logo,
   send,
   shield,
   star,
-  menu,
-  close,
-  arrowUp,
-  instagram,
   linkedin,
   twitter,
   email,
   alex,
   mario,
-  blockchain
 } from "../assets";
 
 export const team = [
@@ -104,13 +105,17 @@ export const socials = [
   },
 ];
 
+export const about_fun = {
+    title: 'Our Mission',
+    desc: 'Our team is working towards increasing economic freedom by accelerating the adoption of more secure & usable wallets.',
+    fun_pdf_link: 'https://fun.xyz/assets/images/about_fun.pdf',
+    odsy_link: 'https://odsy.xyz/'
+};
+
 export const author = {
   name: 'Pranav Sakthivel',
   link: 'https://github.com/PranavSakthivel'
 };
 
-
 export const footer = "© 2022 The Fun Group, Inc.";
-export const whitepaper_link = 'https://fun.xyz/assets/images/about_fun.pdf';
-export const odsy_link = 'https://odsy.xyz/';
-export const careers_link = 'https://jobs.lever.co/fun.xyz'; 
+export const careers_link = 'https://jobs.lever.co/fun.xyz';
