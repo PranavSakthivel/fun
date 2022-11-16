@@ -14,9 +14,9 @@ const Navbar = () => {
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
           >
-            {/*In case of any error with logic:  <a href={`#${nav.id}`}>*/}
-            <a href={nav.link ? nav.link : `#${nav.id}`}>
-              {nav.title}
+            {/* Conditional to check if link is external */}
+            <a href={nav.link ? nav.link : `#${nav.id}`} target={nav.link ? '_blank' : '_self'}>
+              {nav.title} {nav.link ? '↗' : ''} {/* Add arrow to indicate external link */}
             </a>
           </li>
         ))}
@@ -39,8 +39,8 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}
               >
-                <a href={nav.link ? nav.link : `#${nav.id}`}>
-                  {nav.title}
+                <a href={nav.link ? nav.link : `#${nav.id}`} target={nav.link ? '_blank' : '_self'}>
+                  {nav.title} {nav.link ? '↗' : ''}
                 </a>
               </li>
             ))}
