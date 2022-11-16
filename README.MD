@@ -75,12 +75,7 @@ Libraries used:
 
 ## Preview / Screenshots
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/1T2Gbtl" data-context="false" >
-    <a href="//imgur.com/a/1T2Gbtl"></a>
-</blockquote>
-<script async src="//s.imgur.com/min/embed.js" charset="utf-8">
-
-</script>
+[Imgur Link](https://imgur.com/a/1T2Gbtl)
 
 ## Sources
 
